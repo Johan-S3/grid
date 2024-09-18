@@ -1,0 +1,13 @@
+
+.grid-imagenes{
+  display: grid;
+  grid-template-columns: repeat(2, 500px);
+  grid-template-rows: repeat(3, 500px);
+  justify-content: center;
+  gap: 10px;
+}
+
+.item{
+    width: 500px;
+    height: 500px;
+}
